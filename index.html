@@ -1,0 +1,92 @@
+<head>
+    <link href= "style.css" rel= "stylesheet" type= "text/css" >
+
+</head>
+<body>
+    <header>
+    </header>
+    <main>
+        <div id="gray-square">   
+            <div id="blue-square">
+
+                <div id= "sign-up">
+
+                    <div id="button">
+                        <button onclick="ShowSignUp()">
+                            Sign Up
+                        </button>
+                        <button onclick="ShowLogIn()">
+                            Log In
+                        </button>
+                    </div>
+
+                    <div>
+                        <h1>Sign up for Free</h1>
+                    </div>
+
+                    <div id="form">
+                        <form>
+                            <input type="text" placeholder="First name*" id= "firstname" class="input" required>
+                            <input type="text" placeholder="Last name*" id="lastname" class="input"  required> <br>
+                            <input type="email" placeholder="Email address*"  class="input" required> <br>
+                            <input type="text" placeholder="Set a Passwrod*"  class="input" required>
+                        </form>
+                    </div>
+
+                    <div>
+                        <button id="button-end" onclick="validation()">
+                            Get Started
+                        </button>
+                    </div>
+                </div>
+            
+                <div id="Log-in">
+
+                    <div id="button">
+                        <button onclick="ShowSignUp()">
+                            Sign Up
+                        </button>
+                        <button onclick="ShowLogIn()">
+                            Log In
+                        </button>
+                    </div>
+
+                    <div>
+                        <h1>
+                            Welcome back!
+                        </h1>
+                    </div>
+
+                    <div>
+                        <form>
+                            <input type="email" placeholder="Email Address*" class="input"  required>
+                            <input type="text" placeholder="Password*"  class="input" required>
+                        </form>
+                    </div>
+
+                    <div>
+                        <a href= "#" > Forgot password? </a>
+                    </div>
+
+                    <div>
+                        <button id="button-end" onclick="validation()">
+                            LOG IN
+                        </button>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div> 
+
+
+
+    </main>
+
+    <script src=app.js>
+
+    </script>
+
+</body>
+
