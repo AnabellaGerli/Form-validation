@@ -32,6 +32,8 @@ body{
 }
 
 button{
+    
+    cursor: pointer;
     background-color: #43525A;
     color: lightgrey;
     font-size: 20px;
@@ -83,6 +85,7 @@ input{
 
 #sign-up{
     display: block;
+    
 }
 #log-in {
     display: none;
@@ -97,6 +100,6 @@ a{
 }
 
 #button-end{
-    margin: 20px
-
+    margin: 20px;
+    cursor: pointer;
 }
