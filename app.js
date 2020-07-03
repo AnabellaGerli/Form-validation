@@ -1,10 +1,6 @@
-/* function hola () {
-    alert ("hola");
-}*/
 var input= document.querySelectorAll("input")
 
-
-// console.log(input)
+console.log(input)
 
 function validation(){
     for (var i=0; i< input.length; i++){
@@ -18,19 +14,12 @@ function validation(){
 
 }
 
-
-document.getElementById("Sign-up").click();
-
-
-
 function ShowSignUp(){
-    document.getElementById("Log-in").style.display= "none";
-    document.getElementById ("Sign-up").style.display= "block";
-
-
+    document.getElementById("log-in").style.display= "none";
+    document.getElementById ("sign-up").style.display= "block";
 }
 
 function ShowLogIn(){
-    document.getElementById("Log-in").style.display= "block";
-    document.getElementById ("Sign-up").style.display= "none";
+    document.getElementById("log-in").style.display= "block";
+    document.getElementById ("sign-up").style.display= "none";
 }
